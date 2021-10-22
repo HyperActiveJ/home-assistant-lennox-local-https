@@ -32,6 +32,14 @@ SensorEntityDescription(
         device_class=DEVICE_CLASS_TEMPERATURE,
 ),
 SensorEntityDescription(
+        key="LennoxHTTPS_System_time_sysUpTime",
+        name="sysUpTime",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_System_time_currentTime",
+        name="currentTime",
+),
+SensorEntityDescription(
         key="LennoxHTTPS_Diagnostic_1_0_Comp. Short Cycle Delay Active",
         name="Comp. Short Cycle Delay Active",
 ),
@@ -294,10 +302,16 @@ SensorEntityDescription(
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_temperatureStatus",
         name="temperatureStatus",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_TEMPERATURE,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_humidityStatus",
         name="humidityStatus",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_HUMIDITY,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_doNotPersist",
@@ -314,10 +328,16 @@ SensorEntityDescription(
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_humidity",
         name="humidity",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_HUMIDITY,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_temperature",
         name="temperature",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_TEMPERATURE,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_damper",
@@ -346,6 +366,9 @@ SensorEntityDescription(
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_sp",
         name="sp",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_TEMPERATURE,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_desp",
@@ -370,6 +393,9 @@ SensorEntityDescription(
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_humidityMode",
         name="humidityMode",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_HUMIDITY,
 ),
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_spC",
@@ -418,6 +444,105 @@ SensorEntityDescription(
 SensorEntityDescription(
         key="LennoxHTTPS_Zone_0_temperatureC",
         name="temperatureC",
+        native_unit_of_measurement=TEMP_FAHRENHEIT,
+        state_class=STATE_CLASS_MEASUREMENT,
+        device_class=DEVICE_CLASS_TEMPERATURE,
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_macAddr",
+        name="status macAddr",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_ssid",
+        name="status ssid",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_ip",
+        name="status ip",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_router",
+        name="status router",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_networkStatus",
+        name="status networkStatus",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_channel",
+        name="status channel",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_dns",
+        name="status dns",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_dns2",
+        name="status dns2",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_subnetMask",
+        name="status subnetMask",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_bitRate",
+        name="status bitRate",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_speed",
+        name="status speed",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_status_rssi",
+        name="status rssi",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_APDetails_rssi",
+        name="APDetails rssi",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_APDetails_security",
+        name="APDetails security",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_APDetails_password",
+        name="APDetails password",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_APDetails_ssid",
+        name="APDetails ssid",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_APDetails_bssid",
+        name="APDetails bssid",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_ssid",
+        name="diagnostics ssid",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_bssid",
+        name="diagnostics bssid",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_txByteCount",
+        name="diagnostics txByteCount",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_rxByteCount",
+        name="diagnostics rxByteCount",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_ip4addr",
+        name="diagnostics ip4addr",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_txPacketCount",
+        name="diagnostics txPacketCount",
+),
+SensorEntityDescription(
+        key="LennoxHTTPS_Interface_diagnostics_rxPacketCount",
+        name="diagnostics rxPacketCount",
 ),
 
 ```
