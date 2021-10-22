@@ -1,11 +1,11 @@
-# home-asssitant-lennox-https
+# home-assistant-lennox-local-https
 A homeassistant custom component to interface with Lennox S30s over local HTTPS interface
-
+Read only (At this time, in theory might be able to replace Cloud and HomeKit connections for control)
 
 Based upon the work here:
 https://github.com/hufman/lennox_lcc
 
-Read only (At this time, in theory might be able to replace Cloud and HomeKit connections for control)
+
 
 Currently records the following sensors, with additional to come
 
