@@ -1,0 +1,10 @@
+{
+  "domain": "lennox_https",
+  "name": "Lennox HTTPS",
+  "documentation": "TBD",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["TBD"],
+  "config_flow": true,
+  "version": "0.0.1"
+}

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "title": "Lennox S30 Thermostat Local HTTPS",
+    "step": {
+      "user": {
+        "title": "Define your ennox S30 Thermostat Local HTTPS connection",
+        "data": {
+          "host": "The ip-address of your Lennox S30 Thermostat r",
+          "name": "The prefix to be used for your Lennox S30 Thermostat  sensors",
+        }
+      }
+    },
+    "error": {
+      "already_configured": "Device is already configured"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
