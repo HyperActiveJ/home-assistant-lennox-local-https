@@ -143,14 +143,14 @@ class LennoxHTTPSHub:
     
     def tcp_read(self): 
         #TODO, detect disconnection and reconnect
-        #while self._serial_thread_isEnabled: 
-        self.command({
-            "systemControl": {
-                "diagControl": {
-                    "level": 2
-                }
-            }
-        })
+        #Optional, Uncomment to enable diagnostic data:
+        #self.command({
+        #   "systemControl": {
+        #       "diagControl": {
+        #           "level": 2
+        #       }
+        #   }
+        #})
         self.request_data(["/devices", "/equipments", "/zones"])
         for message in self.messages():
             
