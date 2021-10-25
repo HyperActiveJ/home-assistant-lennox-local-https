@@ -73,13 +73,14 @@ class Client:
 
 
 client = Client(CLIENT_ID, IP)
-client.command({
-    "systemControl": {
-        "diagControl": {
-            "level": 2
-        }
-    }
-})
+#Optional, enable diagnostic data
+#client.command({
+#    "systemControl": {
+#        "diagControl": {
+#            "level": 2
+#        }
+#    }
+#})
 client.request_data(["/devices", "/equipments", "/zones"])
 
 zone_status_keys = {
