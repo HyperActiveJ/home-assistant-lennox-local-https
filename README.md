@@ -1,4 +1,20 @@
 # home-assistant-lennox-local-https
+
+
+
+Deprecated!
+This functionality is being added into a more functional solution
+
+Api
+
+https://github.com/PeteRager/lennoxs30api
+
+Home assistant integration
+
+https://github.com/PeteRager/lennoxs30
+
+
+
 A homeassistant custom component to interface with Lennox S30s over local HTTPS interface
 Read only (At this time, in theory might be able to replace Cloud and HomeKit connections for control)
 
